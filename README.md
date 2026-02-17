@@ -6,7 +6,7 @@ One-command installer for ZeroClaw + Ollama on fresh macOS.
 
 1. Clone this repo:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/zeroclaw-macos-setup.git
+   git clone https://github.com/Digital-cyber/zeroclaw-macos-setup.git
    cd zeroclaw-macos-setup
 Run installer:
 
