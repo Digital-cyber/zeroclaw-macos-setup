@@ -1,0 +1,18 @@
+# Secrets
+.env
+*.key
+config.local.toml
+
+# Database
+*.db
+*.db-shm
+*.db-wal
+
+# Logs
+logs/
+*.log
+
+# Runtime
+.envrc
+EOF
+ 
