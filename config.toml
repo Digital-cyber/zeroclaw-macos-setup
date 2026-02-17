@@ -1,0 +1,22 @@
+[agent]
+name = "zeroclaw-local"
+system_prompt = "system-prompt.md"
+
+[provider]
+name = "ollama"
+default_model = "qwen2.5:7b"
+
+[gateway]
+port = 8080
+
+[memory]
+enabled = true
+backend = "sqlite"
+path = "~/.config/zeroclaw/memory.db"
+
+[security]
+sandbox = true
+command_allowlist = ["bash", "python3", "ls", "cat", "grep", "find"]
+
+[channels]
+cli = true
