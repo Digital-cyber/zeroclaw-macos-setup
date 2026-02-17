@@ -53,6 +53,6 @@ text
 Your repo now contains the full setup. On any fresh Mac:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/zeroclaw-macos-setup.git
+git clone https://github.com/Digital-cyber/zeroclaw-macos-setup.git
 cd zeroclaw-macos-setup
 bash setup.sh
